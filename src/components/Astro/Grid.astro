@@ -1,0 +1,41 @@
+<!-- HTML Astro Framework--> 
+<div class="grid">
+<!-- first row -->
+  <div class="grid__item" style="background-image: url('https://www.msf.mx/wp-content/uploads/elementor/thumbs/msb171413_medium-qdt3s57o2yt4f467cm9s6ll8bhe508bim30isr7mh4.jpg);"></div>
+  <div class="grid__item" style="background-image: url('https://www.msf.mx/wp-content/uploads/elementor/thumbs/graos-pn9dzzr2p1miafmb0fi741vys7beb5tbsxdxbjv4p4.jpeg');"></div>
+  <div class="grid__item" style="background-image: url('https://www.msf.mx/wp-content/uploads/elementor/thumbs/msf338343_medium-ppp3qht72ex9hv94el6n5ofd5wg981l3t9qa13m7wo.jpg');"></div>
+  <div class="grid__item" style="background-image: url('https://dona.msf.mx/sites/dona.msf.mx/files/inline-images/banner_900x350_ok.png');"></div>
+
+  <!-- Second row -->
+  <div class="grid__item" style="background-image: url('https://www.msf.mx/wp-content/uploads/2012/12/msb16575-300x200.jpg');"></div>
+  <div class="grid__item" style="background-image: url('https://www.msf.mx/wp-content/uploads/2022/06/f2f-1-300x225.jpg');"></div>
+  <div class="grid__item" style="background-image: url('https://www.msf.mx/wp-content/uploads/2022/04/img_5658-300x200.jpg');"></div>
+  <div class="grid__item" style="background-image: url('https://www.msf.mx/wp-content/uploads/elementor/thumbs/msb137626_medium-pxgyqjh28qp5r9d9z96n79qtnczde1ytwpylfrg6n2.jpg');"></div>
+</div>
+
+<!-- CSS Astro Framework--> 
+
+<style>
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid__item {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.grid__item:hover {
+  opacity: 0.8;
+}
+
+</style>

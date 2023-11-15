@@ -1,0 +1,121 @@
+<!-- HTML Astro Framework--> 
+
+<div class="hero">
+  <h1>Carrera Solidaria por la Salud 5K</h1>
+  <h3> por Médicos Sin Fronteras México y Centroamérica</h3>
+  <div class="hero__informations">
+    <div class="hero__informations__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/world-icon-Medicos-Sin-Fronteras.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L3dvcmxkLWljb24tTWVkaWNvcy1TaW4tRnJvbnRlcmFzLnBuZyIsImlhdCI6MTY5OTkzNTg1MCwiZXhwIjoyMDE1Mjk1ODUwfQ.xx1-xT6RdfrGpts96AHrHHk-1LTz_1YXm0zAuKCCWaE" alt="icono mundo Medicos Sin Fronteras">
+      <p>Salud Global y Solidaridad</p>
+    </div>
+    <div class="hero__informations__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/volunter-Medicos-Sin-Fronteras.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L3ZvbHVudGVyLU1lZGljb3MtU2luLUZyb250ZXJhcy5wbmciLCJpYXQiOjE2OTk5MzU5OTIsImV4cCI6MjAxNTI5NTk5Mn0.mnDX97lKlUEryADOkt9Pp8FBr42bUPnDbNGa_L9xEfM" alt="icono contribuye Medicos Sin Fronteras">
+      <p>Contribuye a la misión humanitaria</p>
+    </div>
+    <div class="hero__informations__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/calendar-Medicos-Sin-Fronteras.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L2NhbGVuZGFyLU1lZGljb3MtU2luLUZyb250ZXJhcy5zdmciLCJpYXQiOjE2OTk5MzYwMjMsImV4cCI6MjAxNTI5NjAyM30.BQxrSM7DHsu3NfMhwt_a1JaGOvehOYdCVV7TC6I3u8s" alt="icono calendario Medicos Sin Fronteras">
+      <p>Experiencia Única en el Bosque de Chapultepec</p>
+    </div>
+  </div>
+</div>
+
+<!-- CSS Astro Framework--> 
+
+<style>
+
+.hero {
+    background-image: url("https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/hero-Medicos-Sin-Fronteras.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L2hlcm8tTWVkaWNvcy1TaW4tRnJvbnRlcmFzLnBuZyIsImlhdCI6MTY5OTkzNjI0NywiZXhwIjoyMDE1Mjk2MjQ3fQ.eYMxMHc4EBauxm9gpRjnjmQEamYx1g9_Kt0eRJsBvKQ");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#ffffff;
+    padding:30vh 10vw 10vh 10vw;
+    height:auto;
+}
+
+.hero h1 {
+    font-size:48px;
+}
+
+.hero h3 {
+    font-size:24px;
+    font-weight:400;
+}
+
+.hero__informations {
+    display:flex;
+    padding:5vh 5vw;
+    gap:2vw;
+}
+
+.hero__informations__box {
+    display:flex;
+    align-items:center;
+    border-radius:15px;
+    background-color: rgba(240, 235, 235, 0.5); /* opacity */
+    backdrop-filter: blur(3px); /* gaussiano */ 
+    padding:12px 23px;
+    font-size:14px;
+    max-width:300px
+}
+
+.hero__informations__box img{
+    margin-right:1vw;
+}
+
+/**Media queries Tablets */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding:30vh 10vw 10vh 10vw;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .hero h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .hero__informations {
+    padding: 4vh 4vw;
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .hero__informations__box {
+    max-width: 350px;
+  }
+}
+
+/**Media queries Mobile */
+@media screen and (max-width: 480px) {
+  .hero {
+    padding:30vh 6vw 10vh 6vw;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 4vh;
+  }
+
+  .hero h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero__informations {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .hero__informations__box {
+    max-width: 100%;
+  }
+}
+
+</style>

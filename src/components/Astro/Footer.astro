@@ -1,0 +1,81 @@
+<!-- HTML Astro Framework--> 
+<div class="footer">
+  <div class="footer__access">
+    <div class="footer__access__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/phone-Medicos-Sin-Fronteras.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L3Bob25lLU1lZGljb3MtU2luLUZyb250ZXJhcy5zdmciLCJpYXQiOjE3MDAwMTY1MzYsImV4cCI6MTczMTU1MjUzNn0.qe0QRb90f_Nh_LWdqCDAYrSLNBbrSEE51oCY7Cey6T4&t=2023-11-15T02%3A48%3A56.380Z" alt="icono phone Medicos Sin Fronteras">
+      <p>+52 55 5256 4139</p>
+    </div> 
+    <div class="footer__access__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/email-Medicos-Sin-Frontera.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L2VtYWlsLU1lZGljb3MtU2luLUZyb250ZXJhLnN2ZyIsImlhdCI6MTcwMDAyNzcyMSwiZXhwIjoxNzMxNTYzNzIxfQ.kM8Qrjm4VpqrLuojQH1W0x4vpwaDxm_V9oDMcemRnP0&t=2023-11-15T05%3A55%3A21.694Z" alt="icono correo Medicos Sin Fronteras">
+      <p>recepcion@mexico.msf.org</p>
+    </div> 
+    <div class="footer__access__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/location-2-Medicos-Sin-Frontera.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L2xvY2F0aW9uLTItTWVkaWNvcy1TaW4tRnJvbnRlcmEuc3ZnIiwiaWF0IjoxNzAwMDI4MDAzLCJleHAiOjE3MzE1NjQwMDN9.yxC_s93uN3cf33Or7n8thxpILZhhdXZHMOUFUejZO6M&t=2023-11-15T06%3A00%3A03.466Z" alt="icono direccion Medicos Sin Fronteras">
+      <p>Fernando Montes de Oca 56, Col. Condesa, Ciudad de México</p>
+    </div> 
+  </div>
+  <div class="footer__copyright">
+    <p>Médicos Sin Fronteras en México, A.C. cuenta con autorización para recibir donativos deducibles de conformidad con la Ley del Impuesto sobre la Renta, y está afiliada al Centro Mexicano para la Filantropía (CEMEFI) en México. 2023.</p>
+  </div>
+</div>
+
+<!-- CSS Astro Framework--> 
+
+<style>
+
+.footer__copyright {
+  background-color:#1F1E1E;
+  color: #ffffff;
+  padding: 5vh 5vw;
+}
+
+.footer__copyright p {
+  text-align: center;
+}
+
+.footer__access {
+  display: flex;
+  justify-content: space-between;
+  padding: 4vh 5vw;
+  border-top: 1px solid #D2CCCC;
+}
+
+.footer__access__box {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.footer__access__box img {
+  margin-right: 1vw;
+  
+}
+
+
+/**Media queries tablet & Desktop */
+@media screen and (max-width: 1050px) {
+  .footer__access {
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+}
+
+/**Media queries Mobile */
+
+@media screen and (max-width: 480px) {
+  .footer__access {
+    flex-direction: column;
+  }
+
+  .footer__access__box {
+    margin-bottom: 5vh;
+  }
+
+  .footer__access__box img {
+  margin-right: 5vw;
+}
+
+}
+
+</style>

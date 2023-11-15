@@ -1,0 +1,145 @@
+<!-- HTML Astro Framework--> 
+<div class="details">
+  <h2>Detalles del evento:</h2>
+  <div class="details__information">
+    <div class="details_infromation__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/calendar-Medico-Sin-Fronteras.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L2NhbGVuZGFyLU1lZGljby1TaW4tRnJvbnRlcmFzLnN2ZyIsImlhdCI6MTY5OTkzODM0NSwiZXhwIjoyMDE1Mjk4MzQ1fQ.OR54CD5PWTGrJJxKbdFaqGmQN7NtBbcAqdy4BCHDJZU" alt="icono calendar Medicos Sin Fronteras">
+      <div>
+        <h3>
+          ¿Cuando?
+        </h3>
+        <p>
+          15 de diciembre de 2023
+        </p>
+      </div>
+    </div>
+    <div class="details_infromation__box--border">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/location-Medicos-Sin-Frontera.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L2xvY2F0aW9uLU1lZGljb3MtU2luLUZyb250ZXJhLnN2ZyIsImlhdCI6MTcwMDAyMjQ3OSwiZXhwIjoxNzMxNTU4NDc5fQ.OsiROmMl9XHIeQE84dT346IPTwsAJJghLh5fcjpL_R8&t=2023-11-15T04%3A27%3A59.234Z" alt="icono de locacion Medicos Sin Fronteras">
+      <div>
+        <h3>
+          ¿Donde?
+        </h3>
+        <p>
+          Bosque de Chapultepec, Ciudad de México.
+        </p>
+      </div>
+    </div>
+    <div class="details_infromation__box">
+      <img src="https://iimgvjzkjpogzlreaoya.supabase.co/storage/v1/object/sign/justmkt/clock-Medicos-Sin-Frontera.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqdXN0bWt0L2Nsb2NrLU1lZGljb3MtU2luLUZyb250ZXJhLnN2ZyIsImlhdCI6MTcwMDAyMjYzNCwiZXhwIjoxNzMxNTU4NjM0fQ.D9yxOuMo4eGUrtmTJLHG2saE89zHXyXBflxeTzsA9NQ&t=2023-11-15T04%3A30%3A35.038Z" alt="icono reloj Medicos Sin Frontera">
+      <div>
+        <h3>
+          ¿Horario?
+        </h3>
+        <p>
+          9 am - 1 pm UTC-6
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<!-- CSS Astro Framework--> 
+
+<style>
+
+.details {
+  padding: 10vh 15vw;
+}
+
+.details h2 {
+  margin-bottom: 10vh;
+}
+
+.details__information {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.details hr {
+  border: 1px solid #D2CCCC;
+}
+
+.details_infromation__box h3 {
+  margin-bottom: 2vh;
+}
+
+.details_infromation__box img {
+  width: 48px;
+  margin-right: 1vw;
+}
+
+
+.details_infromation__box {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+  padding: 10px 15px;
+  margin-bottom: 3vh;
+}
+
+.details_infromation__box--border {
+  padding: 10px 15px;
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+  border-left: 1px solid #D2CCCC;
+  border-right: 1px solid #D2CCCC;
+  margin-bottom: 3vh;  
+}
+
+.details_infromation__box--border h3 {
+  margin-bottom: 2vh;
+}
+
+.details_infromation__box--border img {
+  margin-right: 1vw;
+}
+
+/**Media queries Tablets */
+@media screen and (max-width: 768px) {
+  .details {
+    padding: 8vh 10vw;
+  }
+
+  .details h2 {
+    margin-bottom: 8vh;
+  }
+
+  .details__information {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details_infromation__box,
+  .details_infromation__box--border {
+    width: 100%;
+    border: none;
+    height: 22vh;
+  }
+}
+
+/**Media queries Mobile */
+@media screen and (max-width: 480px) {
+  .details {
+    padding: 6vh 5vw;
+  }
+
+  .details h2 {
+    margin-bottom: 6vh;
+    text-align: center;
+  }
+
+  .details_infromation__box,
+  .details_infromation__box--border {
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    flex-direction: row;
+  }
+}
+
+</style>
+
+
