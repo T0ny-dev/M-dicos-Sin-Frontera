@@ -10,7 +10,7 @@ function Navbar () {
 					{/* Main Menu*/}
 					<a href="https://www.msf.mx/" target="_blank">SITIO WEB PRINCIPAL</a>
 					<a href="#register">
-					<button className="button__primary" >REGISTRARME AHORA!</button>
+					<button className="button__primary" >¡REGISTRARME AHORA!</button>
 					</a>
 				</div>
 			</div>

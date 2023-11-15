@@ -25,7 +25,7 @@ const RegistrationForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className='form'>
-      <h2>Registrate ahora!</h2>
+      <h2>¡Regístrate ahora!</h2>
       <label htmlFor="name">Nombre completo:</label>
       <input
         type="text"

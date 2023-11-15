@@ -22,11 +22,11 @@ npm run dev -- correr servidor
 
 ## 🚀 Tecnologías
 
-Supabase (Storage)
-AstroJS
-ReactJS
-BEM
-CSS
++ Supabase (Storage)
++ AstroJS
++ ReactJS
++ BEM
++ CSS
 
 ## 🚀 Proyecto Estructura
 
@@ -64,7 +64,7 @@ Responsivo
 + Se añadió menú móvil.
 + Se añadieron medidas responsivas para escritorio, tabletas y móviles.
 
-Codigo 
+Código
 
 + Se utilizó la metodología BEM para los estilos.
 + Se comentó el código para ser explicativo.
