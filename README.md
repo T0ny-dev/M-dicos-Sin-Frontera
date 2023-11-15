@@ -87,4 +87,6 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Depliegue
 
-[Vercel](https://docs.astro.build)  Ver Despliegue
+[Figma](https://www.figma.com/file/ECt31JnjRoADFCZwz3PIz8/Medicos-Sin-Fronteras?type=design&node-id=0%3A1&mode=design&t=h2kDdKpmSW2PTAk1-1)  Ver diseño
+
+[Vercel](https://medicos-sin-frontera.vercel.app/)  Ver Despliegue
